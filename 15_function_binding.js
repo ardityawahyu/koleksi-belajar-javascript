@@ -57,7 +57,7 @@ let say2 = user.sayName;
 // ini artinya sayName() akan dieksekusi di luar scopenya atau dalam contoh ini dia
 // akan di panggil di Global scope, makanya kalao kita console
 
-console.log(say()); // "Name: undefined , Age: undefined"
+console.log(say2()); // "Name: undefined , Age: undefined"
 
 // itu karena "this" nya sekarang milik global object window, karena dipanggil diglobal scope
 // sementara kita maunya "this"-nya itu tetep milik si sayName()
